@@ -1,0 +1,109 @@
+<keymap version="1" name="Customized Emacs" parent="Emacs">
+  <action id="$Redo">
+    <keyboard-shortcut first-keystroke="shift ctrl z" />
+    <keyboard-shortcut first-keystroke="shift alt minus" />
+    <keyboard-shortcut first-keystroke="shift ctrl slash" />
+  </action>
+  <action id="BaseOnThisFunction" />
+  <action id="CommentByBlockComment">
+    <keyboard-shortcut first-keystroke="shift ctrl divide" />
+  </action>
+  <action id="Editor Redo">
+    <keyboard-shortcut first-keystroke="shift ctrl slash" />
+  </action>
+  <action id="EditorBackSpace">
+    <keyboard-shortcut first-keystroke="back_space" />
+    <keyboard-shortcut first-keystroke="shift back_space" />
+    <keyboard-shortcut first-keystroke="ctrl h" />
+  </action>
+  <action id="EditorCloneCaretBelow">
+    <keyboard-shortcut first-keystroke="ctrl t" />
+  </action>
+  <action id="EditorEnter">
+    <keyboard-shortcut first-keystroke="enter" />
+    <keyboard-shortcut first-keystroke="ctrl m" />
+    <keyboard-shortcut first-keystroke="ctrl j" />
+  </action>
+  <action id="EditorEscape">
+    <keyboard-shortcut first-keystroke="escape" second-keystroke="escape" />
+  </action>
+  <action id="EditorNextWordWithSelection">
+    <keyboard-shortcut first-keystroke="shift ctrl right" />
+    <keyboard-shortcut first-keystroke="alt at" />
+  </action>
+  <action id="EditorScrollToCenter" />
+  <action id="EditorSelectWord">
+    <keyboard-shortcut first-keystroke="ctrl alt w" />
+    <keyboard-shortcut first-keystroke="ctrl at" />
+  </action>
+  <action id="Emacs+.KeyboardQuit">
+    <keyboard-shortcut first-keystroke="ctrl g" />
+  </action>
+  <action id="Emacs+.Recenter">
+    <keyboard-shortcut first-keystroke="ctrl l" second-keystroke="ctrl l" />
+  </action>
+  <action id="EmacsStyleIndent">
+    <keyboard-shortcut first-keystroke="tab" />
+    <keyboard-shortcut first-keystroke="ctrl i" />
+  </action>
+  <action id="ExpandLiveTemplateCustom">
+    <keyboard-shortcut first-keystroke="ctrl i" />
+  </action>
+  <action id="FindInPath">
+    <keyboard-shortcut first-keystroke="shift ctrl f" />
+    <keyboard-shortcut first-keystroke="ctrl l" second-keystroke="g" />
+  </action>
+  <action id="GotoTest" />
+  <action id="HelloPopupAction">
+    <keyboard-shortcut first-keystroke="shift ctrl alt p" />
+  </action>
+  <action id="HelloWorldAction">
+    <keyboard-shortcut first-keystroke="shift alt h" />
+  </action>
+  <action id="Images.ShowThumbnails" />
+  <action id="ImplementMethods" />
+  <action id="InsertLiveTemplate" />
+  <action id="InsertNewLineAbove">
+    <keyboard-shortcut first-keystroke="shift alt enter" />
+  </action>
+  <action id="MyTestAction">
+    <keyboard-shortcut first-keystroke="shift ctrl h" />
+  </action>
+  <action id="NextSplitter">
+    <keyboard-shortcut first-keystroke="ctrl x" second-keystroke="o" />
+    <keyboard-shortcut first-keystroke="ctrl q" />
+  </action>
+  <action id="QuickJavaDoc">
+    <mouse-shortcut keystroke="alt button2" />
+    <keyboard-shortcut first-keystroke="ctrl l" second-keystroke="h" />
+  </action>
+  <action id="Replace">
+    <keyboard-shortcut first-keystroke="shift alt 5" />
+    <keyboard-shortcut first-keystroke="ctrl l" second-keystroke="r" />
+  </action>
+  <action id="ReplaceInPath">
+    <keyboard-shortcut first-keystroke="shift ctrl r" />
+    <keyboard-shortcut first-keystroke="ctrl l" second-keystroke="ctrl r" />
+  </action>
+  <action id="RunDashboard.ShowConfigurations" />
+  <action id="ScrollTreeToCenter" />
+  <action id="SearchEverywhere">
+    <keyboard-shortcut first-keystroke="ctrl semicolon" />
+  </action>
+  <action id="SelectNextOccurrence">
+    <keyboard-shortcut first-keystroke="alt j" />
+    <keyboard-shortcut first-keystroke="shift ctrl t" />
+  </action>
+  <action id="SplitVertically">
+    <keyboard-shortcut first-keystroke="ctrl x" second-keystroke="3" />
+    <keyboard-shortcut first-keystroke="shift ctrl q" />
+  </action>
+  <action id="TypeHierarchy" />
+  <action id="TypeHierarchy.BaseOnThisType" />
+  <action id="TypeHierarchyBase.BaseOnThisType" />
+  <action id="Vcs.Log.FocusTextFilter" />
+  <action id="Vcs.UpdateProject" />
+  <action id="hogera">
+    <keyboard-shortcut first-keystroke="shift ctrl h" />
+  </action>
+</keymap>
